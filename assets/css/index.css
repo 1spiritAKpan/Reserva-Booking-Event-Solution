@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  /* border: 3px solid red; */
+  border: 3px solid red;
   max-width: 360px;
   height: 100vh;
 }
@@ -87,7 +87,7 @@ header {
 }
 
 .hall-section {
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 
