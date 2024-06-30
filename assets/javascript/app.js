@@ -68,3 +68,81 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("resize", updateCarousel);
 });
 
+
+
+const prevButton = document.querySelector('.carousel-button.prev');
+const nextButton = document.querySelector('.carousel-button.next');
+const carouselContainer = document.querySelector('.additional-service-container');
+
+let currentIndex = 0;
+
+prevButton.addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateCarousel();
+    }
+});
+
+nextButton.addEventListener('click', () => {
+    if (currentIndex < carouselContainer.children.length - 1) {
+        currentIndex++;
+        updateCarousel();
+    }
+});
+
+function updateCarousel() {
+    const offset = -currentIndex * 100;
+    carouselContainer.style.transform = `translateX(${offset}%)`;
+}
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const carouselContainer = document.querySelector(
+    ".additional-services-carousel-container"
+  );
+  const prevButton = document.querySelector(
+    ".additional-services-carousel-button.prev"
+  );
+  const nextButton = document.querySelector(
+    ".additional-services-carousel-button.next"
+  );
+  const totalItems = document.querySelectorAll(
+    ".additional-services-addition-box"
+  ).length;
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const width = carouselContainer.clientWidth;
+    carouselContainer.style.transform = `translateX(-${
+      currentIndex * width
+    }px)`;
+  }
+
+  prevButton.addEventListener("click", function () {
+    if (currentIndex > 0) {
+      currentIndex--;
+    } else {
+      currentIndex = totalItems - 1;
+    }
+    updateCarousel();
+  });
+
+  nextButton.addEventListener("click", function () {
+    if (currentIndex < totalItems - 1) {
+      currentIndex++;
+    } else {
+      currentIndex = 0;
+    }
+    updateCarousel();
+  });
+
+  // Handle window resize
+  window.addEventListener("resize", updateCarousel);
+
+  // Initial update
+  updateCarousel();
+});
+
+
+
+

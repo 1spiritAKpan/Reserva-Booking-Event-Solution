@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   max-width: 360px;
   height: 100vh;
 }
@@ -87,7 +87,7 @@ header {
 }
 
 .hall-section {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 
@@ -188,6 +188,120 @@ header {
 .carousel-button:hover {
     opacity: 1;
 }
-&#10094;
 
-&#10095;
+.last-info-bundle img {
+  margin-left: em;
+  padding: 10px 0;
+  width: 10rem;
+}
+
+
+.addition-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: auto;
+  top: 2446px;
+  left: 535px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  border: 5px 0px 0px 0px;
+  opacity: 0px;
+  border-bottom: 4px solid var(--text-color-onoe);}
+
+.additional-service-container {
+  max-width: 1390px;
+  margin: 0 auto;
+  min-height: auto;
+  top: 981px;
+  left: 76px;
+  gap: 30px;
+  opacity: 0px;
+  display: grid;
+  width: 90%;
+}
+
+ .additional-service-container {
+    grid-template-columns: 1fr;
+  }
+
+
+.additional-services {
+  margin: 20px auto;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addition-box-title h2 {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: center;
+  padding: 1rem;
+  color: var(--text-color-onoe);
+}
+
+.addition-box p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--text-color-onoe);
+}
+
+.additional-services h1 {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.addition-box a {
+  color: var(--primary-color);
+  margin: 3rem 0 !important;
+}
+
+.additional-services-carousel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.additional-services-carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.additional-services-addition-box {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.additional-services-carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.additional-services-carousel-button.prev {
+  left: 10px;
+}
+
+.additional-services-carousel-button.next {
+  right: 10px;
+}
+
+
+  
