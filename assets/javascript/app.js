@@ -20,13 +20,12 @@
 
 // script.js
 
-// 
+//
 
 function updateCarousel() {
-    const offset = -currentIndex * 100;
-    carouselContainer.style.transform = `translateX(${offset}%)`;
+  const offset = -currentIndex * 100;
+  carouselContainer.style.transform = `translateX(${offset}%)`;
 }
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const carouselContainer = document.querySelector(
@@ -75,12 +74,10 @@ document.addEventListener("DOMContentLoaded", function () {
   updateCarousel();
 });
 
-
 window.onload = function () {
   let slideIndex = 0;
   showSlide();
-  
-}
+};
 
 window.onload = function () {
   let slideIndex = 0;
@@ -120,10 +117,7 @@ window.onload = function () {
   };
 };
 
-
-
-
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   var mobile_home_btn = document.querySelector("#home");
   var mobile_service_btn = document.querySelector("#service");
   var mobile_gallery_btn = document.getElementById("gallery");
@@ -170,16 +164,17 @@ document.addEventListener('DOMContentLoaded', function () {
     MOBILE NAV
   ======================================*/
 
-  document.querySelector(".dropdown-menu").addEventListener("click", function () {
-    const menu = document.querySelector(".mobile-navbar-menu");
-    menu.style.display = 'block'
-    menu.classList.add("active");
-  });
+  document
+    .querySelector(".dropdown-menu")
+    .addEventListener("click", function () {
+      const menu = document.querySelector(".mobile-navbar-menu");
+      menu.style.display = "block";
+      menu.classList.add("active");
+    });
 
   document.querySelector(".mobile-navbar-close-btn").onclick = function () {
     const menu = document.querySelector(".mobile-navbar-menu");
-    menu.classList.remove('active');
+    menu.classList.remove("active");
     menu.classList.add("out");
-
   };
-}) 
+});
