@@ -119,3 +119,67 @@ window.onload = function () {
     slideIndex = n;
   };
 };
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var mobile_home_btn = document.querySelector("#home");
+  var mobile_service_btn = document.querySelector("#service");
+  var mobile_gallery_btn = document.getElementById("gallery");
+  var mobile_aboutUs = document.getElementById("aboutUs");
+
+  //  for home nav link
+
+  mobile_home_btn.addEventListener("mouseenter", function () {
+    document.querySelector(".fa-home").style.display = "flex";
+  });
+
+  mobile_home_btn.addEventListener("mouseleave", function () {
+    document.querySelector(".fa-home").style.display = "none";
+  });
+
+  // for  service nav links
+  mobile_service_btn.addEventListener("mouseenter", function () {
+    document.querySelector(".fa-tasks").style.display = "flex";
+  });
+
+  mobile_service_btn.addEventListener("mouseleave", function () {
+    document.querySelector(".fa-tasks").style.display = "none";
+  });
+
+  // for gallery nav link
+  mobile_gallery_btn.addEventListener("mouseenter", function () {
+    document.querySelector(".fa-image").style.display = "flex";
+  });
+
+  mobile_gallery_btn.addEventListener("mouseleave", function () {
+    document.querySelector(".fa-image").style.display = "none";
+  });
+
+  // user nav link
+  mobile_aboutUs.addEventListener("mouseenter", function () {
+    document.querySelector(".fa-users").style.display = "flex";
+  });
+
+  mobile_aboutUs.addEventListener("mouseleave", function () {
+    document.querySelector(".fa-users").style.display = "none";
+  });
+
+  /*=====================================
+    MOBILE NAV
+  ======================================*/
+
+  document.querySelector(".dropdown-menu").addEventListener("click", function () {
+    const menu = document.querySelector(".mobile-navbar-menu");
+    menu.style.display = 'block'
+    menu.classList.add("active");
+  });
+
+  document.querySelector(".mobile-navbar-close-btn").onclick = function () {
+    const menu = document.querySelector(".mobile-navbar-menu");
+    menu.classList.remove('active');
+    menu.classList.add("out");
+
+  };
+}) 
