@@ -178,3 +178,15 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.classList.add("out");
   };
 });
+
+
+
+// faq collapse
+var faqMainItems = document.querySelectorAll(".faq-main");
+var faqDropdown = document.querySelector(".faq-dropdown");
+
+faqMainItems.forEach((faqMain) => {
+  faqMain.addEventListener("click", function () {
+    faqDropdown.classList.toggle("show");
+  });
+});

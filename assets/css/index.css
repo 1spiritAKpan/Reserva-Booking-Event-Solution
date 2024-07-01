@@ -595,3 +595,98 @@ header {
 
   color: var(--white-color);
 }
+
+.faq-section{
+  border: 2px solid red;
+  
+  /* background-color: var(--background-color); */
+}
+
+.faq-section h2 {
+ font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: rem;
+  width: 100%;
+}
+
+.faq-main {
+  display: flex;
+  width: 80%;
+  color: var(--white-color);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-main svg {
+  color: var(--white-color) !important;
+}
+
+.show {
+  display: none;
+}
+
+.faq-content {   
+  margin: 0 auto;
+}
+
+.faq-content label {
+     background-color: var(--background-color) !important;
+    color: var(--white-color);
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 85%;
+    padding: 1.3rem !important;
+}
+
+.toggle {
+  display: none;
+}
+
+/* Default styling for the collapsible content */
+.content {
+      display: none;
+    padding: 10px;
+    width: 100%;
+    max-width: 91%;
+    margin-top: 10px;
+    background: var(--main-text);
+    color: var(--white-color);
+}
+
+
+/* Styling for the label, making it look clickable */
+.toggle + label {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Show content when checkbox is checked */
+.toggle:checked + label + .content {
+  display: block;
+}
+
+
+.faq-content p{
+  font-family: Poppins;
+font-size: .8rem;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+
