@@ -405,3 +405,32 @@ header {
 height: 180px;
 
 }
+
+
+
+.dots-container{
+  text-align: center;
+  padding: 10px;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slide-container{
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.test {
+  max-width: 600px;
+  margin: auto;
+}
