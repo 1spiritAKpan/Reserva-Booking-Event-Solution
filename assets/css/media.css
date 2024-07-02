@@ -190,7 +190,7 @@ header {
 
 
     .additional-services{
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .additional-services {
@@ -390,3 +390,4 @@ header {
 .join-us {
     margin: 0 auto;
     width: 80%;
+}
