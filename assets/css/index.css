@@ -27,7 +27,7 @@ main {
 }
 header {
   background-image: url(../image/header-hero-bg-img.png);
-  min-height: 40vh;
+  min-height: 43vh;
   max-width: 100%;
   overflow: hidden!important;
   background-repeat: no-repeat;
