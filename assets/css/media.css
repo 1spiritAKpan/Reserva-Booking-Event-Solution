@@ -1,8 +1,8 @@
-@media (max-widthz: 309px) {
+@media (max-width: 309px) {
   .desktop-test,
   .desktop-hall-section,
   .desktop-hero,
-  .desktop-navbar {
+  .desktop-navbar {    
     display: none;
   }
 }
