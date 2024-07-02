@@ -97,7 +97,7 @@ header {
 
 /* Dropdown content (hidden by default) */
 .collapse-dropdown-content {
-    display: none;
+    display: ;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;

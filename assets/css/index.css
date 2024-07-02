@@ -63,6 +63,102 @@ header {
   border-radius: 2px;
   transition: all 0.3s ease;
 }
+/* kdujwdio */
+.hero-collapse{
+    position: relative;
+    bottom: -130px;
+    align-items: center;
+    background: #fff;
+    display: flex;
+     margin: -70px auto;
+     box-shadow: 0 0 10px;
+    width:95%;
+    height:auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.line{
+    height: 2.6rem;
+    width: 3px;
+    border-radius: 5px;
+    background: #D9D9D9;
+
+}
+
+.collapse-btn-dropbtn{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 10px;
+  background: transparent;
+  border: none;
+}
+
+.collapse-dropdown{
+    max-width: calc(92%/3);
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hero-text h1 {
+ text-align: start;
+ width: 32rem;
+ font-size: 36px;
+}
+
+/* Dropdown container */
+.collapse-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* Dropdown content (hidden by default) */
+.collapse-dropdown-content {
+    /* display: none; */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+/* Links inside the dropdown */
+.collapse-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.collapse-dropdown a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu when the user clicks the button */
+.show {display: block;}
+
+
+.show {display: flex;}
+
+/* jhcdyudg */
 
 .mobile-navbar-menu {
   display: none;
