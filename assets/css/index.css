@@ -104,9 +104,9 @@ header {
 }
 
 .hero-text h1 {
- text-align: start;
- width: 32rem;
- font-size: 36px;
+    text-align: start;
+    width: 87%;
+    font-size: 36px;
 }
 
 /* Dropdown container */
@@ -276,12 +276,12 @@ header {
   text-align: left;
 }
 
-.hero-text h1 {
-  font-size: 24px;
-  font-weight: 600;
-  color: var(--text-color-two);
-  line-height: 36px;
-  text-align: left;
+.hero-text h1 {   
+  font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color-two);
+    line-height: 30px;
+    text-align: start;
 }
 
 
