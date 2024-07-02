@@ -177,7 +177,7 @@ header {
   ) !important;
   backdrop-filter: blur(10px);
   border-radius: 0 0 10px 10px;
-  padding: 1rem;
+  padding-bottom: 1rem;
   box-shadow: 0 0 10px rgba(27, 27, 27, 0.815);
   transform: translateX(100%); /* Initially hidden */
   transition: transform 0.6s ease-in-out; /* Smooth transition */
