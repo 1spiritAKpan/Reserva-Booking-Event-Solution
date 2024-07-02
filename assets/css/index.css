@@ -22,7 +22,7 @@ body {
 
 main {
   /* border: 3px solid red; */
-  max-width: 360px;
+  max-width: 100%;
   height: 100vh;
 }
 header {
@@ -132,12 +132,12 @@ header {
 
 /* Dropdown content (hidden by default) */
 .collapse-dropdown-content {
-    /* display: none; */
+    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 1001;
     
 }
 
@@ -303,7 +303,7 @@ header {
 
 .hall-one {
   max-width: 161.53px;
-  height: 173px;
+  height: auto;
   top: 401px;
   left: 21px;
   /* border: 1px solid red; */
@@ -776,6 +776,32 @@ text-align: center;
     margin-top: 10px;
     background: var(--main-text);
     color: var(--white-color);
+}
+
+.contact-btn{
+  width: 185px;
+height: 56px;
+top: 54px;
+left: 1162px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+align-items: center;
+display: flex;
+justify-content: start;
+background: #FD9039;
+padding: 0 10px;
+margin-left: 2.1rem;
+}
+
+.contact-btn a{
+  text-decoration: none;
+  font-family: 'Poppins';
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #fff;
 }
 
 

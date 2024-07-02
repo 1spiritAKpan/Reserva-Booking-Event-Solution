@@ -202,20 +202,23 @@ faqMainItems.forEach((faqMain) => {
 hero collapse menu
 ============================*/
 
-document.addEventListener('DOMContentLoaded', function () {
-  var dropdownBtns = document.querySelectorAll('.collapse-btn-dropbtn');
-  var collapseContents = document.querySelectorAll('.collapse-dropdown-content');
+document.addEventListener("DOMContentLoaded", function () {
+  var dropdownBtns = document.querySelectorAll(".collapse-btn-dropbtn");
+  var collapseContents = document.querySelectorAll(
+    ".collapse-dropdown-content"
+  );
 
   for (let i = 0; i < dropdownBtns.length; i++) {
     dropdownBtns[i].onclick = function () {
-      alert('hello')
-      collapseContents.forEach((content) => (content.style.display = 'none'));
+      // Hide all dropdowns first
+      collapseContents.forEach((content) => (content.style.display = "none"));
 
-      collapseContents[i].style.display = 'block';
-   }
-    
+      // Then display the clicked one
+      collapseContents[i].style.display = "block";
+    };
   }
-})
+});
+
 
 // document.addEventListener("DOMContentLoaded", function () {
 //   var dropdownBtns = document.querySelectorAll(".collapse-btn-dropbtn");
