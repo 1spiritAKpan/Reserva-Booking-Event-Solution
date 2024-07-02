@@ -170,10 +170,10 @@ header {
   width: 100%;
   z-index: 1000;
   background: linear-gradient(
-    45deg,
+    to bottom,
     transparent,
-    rgba(255, 255, 255, 0.24),
-    transparent
+    transparent,
+    #3b1375
   ) !important;
   backdrop-filter: blur(10px);
   border-radius: 0 0 10px 10px;
