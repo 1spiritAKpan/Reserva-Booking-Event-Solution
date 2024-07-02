@@ -9,6 +9,7 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/media.css">
 </head>
 
 <body>
@@ -59,6 +60,57 @@
                 </p>
             </div>
 
+
+            <!-- min-width:400px to max-width:600px  hero dropdown-->
+            <div class="hero-collapse">
+                <div class="collapse-dropdown">
+                    <button class="collapse-btn-dropbtn"><span>Dropdown</span> <svg width="16" height="16"
+                            viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.18069 10.163L4.87525 6.86952C4.22572 5.94164 4.88954 4.66668 6.02217 4.66668L9.97767 4.66668C11.1103 4.66668 11.7741 5.94163 11.1246 6.86952L8.81915 10.163C8.42105 10.7317 7.57879 10.7317 7.18069 10.163Z"
+                                fill="#1B0639" />
+                        </svg>
+                    </button>
+                    <div class="collapse-dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <span class="line"></span>
+
+                <div class="collapse-dropdown">
+                    <button class="collapse-btn-dropbtn"><span>Dropdown</span> <svg width="16" height="16"
+                            viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.18069 10.163L4.87525 6.86952C4.22572 5.94164 4.88954 4.66668 6.02217 4.66668L9.97767 4.66668C11.1103 4.66668 11.7741 5.94163 11.1246 6.86952L8.81915 10.163C8.42105 10.7317 7.57879 10.7317 7.18069 10.163Z"
+                                fill="#1B0639" />
+                        </svg></button>
+                    <div class="collapse-dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+                <span class="line"></span>
+
+                <div class="collapse-dropdown">
+                    <button class="collapse-btn-dropbtn"><span>Dropdown</span><svg width="16" height="16"
+                            viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.18069 10.163L4.87525 6.86952C4.22572 5.94164 4.88954 4.66668 6.02217 4.66668L9.97767 4.66668C11.1103 4.66668 11.7741 5.94163 11.1246 6.86952L8.81915 10.163C8.42105 10.7317 7.57879 10.7317 7.18069 10.163Z"
+                                fill="#1B0639" />
+                        </svg></button>
+                    <div class="collapse-dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- min-width:400px to max-width:600px  -->
 
         </header>
 
@@ -280,7 +332,7 @@
             </div>
             <div class="slide-container">
                 <div class="testimonal-header-img">
-                    <img src="assets/image/feedback_img.png" alt="">
+                    <img src="assets/image/feedback_img.png" class="testimnoials_images" alt="">
                     <p>
                         — Mrs Emily James
                     </p>
@@ -309,7 +361,8 @@
                     </div>
                 </div>
                 <div class="testimonal-header-img">
-                    <img class="other-img" src="assets/image/business.png" alt="">
+                    <img src="assets/image/feedback_img.png" class="testimnoials_images" alt="">
+
                     <p>
                         — Mrs Lilian Biden
                     </p>
@@ -363,7 +416,8 @@
                 </div>
 
                 <div class="testimonal-header-img">
-                    <img class="other-img" src="assets/image/man-testimonal.png" alt="">
+                    <img src="assets/image/feedback_img.png" class="testimnoials_images" alt="">
+
                     <p>
                         — Mrs Victor James
                     </p>
@@ -460,12 +514,12 @@
             </div>
 
 
-            
+
         </section>
 
         <section class="faq-section">
             <h2>Faqs</h2>
-        
+
             <div class="container-fluid">
                 <div class="faq-content">
                     <!-- Item 1 -->
@@ -477,12 +531,12 @@
                                 d="M5.18077 9.44392L0.541993 2.8171C-0.107529 1.88922 0.556286 0.614257 1.68892 0.614257L10.3111 0.614257C11.4437 0.614257 12.1075 1.88922 11.458 2.81711L6.81923 9.44393C6.42113 10.0126 5.57887 10.0126 5.18077 9.44392Z"
                                 fill="white" />
                         </svg>
-        
+
                     </label>
                     <div class="content">
                         <p>Content for Item 1</p>
                     </div>
-        
+
                     <!-- Item 2 -->
                     <input type="checkbox" id="toggle2" class="toggle">
                     <label for="toggle2">
@@ -496,7 +550,7 @@
                     <div class="content">
                         <p>Content for Item 2</p>
                     </div>
-        
+
                     <!-- Item 3 -->
                     <input type="checkbox" id="toggle3" class="toggle">
                     <label for="toggle3">
@@ -510,7 +564,7 @@
                     <div class="content">
                         <p>Content for Item 3</p>
                     </div>
-        
+
                     <!-- Item 4 -->
                     <input type="checkbox" id="toggle4" class="toggle">
                     <label for="toggle4">
@@ -524,7 +578,7 @@
                     <div class="content">
                         <p>Content for Item 4</p>
                     </div>
-        
+
                     <!-- Item 5 -->
                     <input type="checkbox" id="toggle5" class="toggle">
                     <label for="toggle5">

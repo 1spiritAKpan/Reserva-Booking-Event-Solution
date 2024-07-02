@@ -181,6 +181,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+
+
+
+
 // faq collapse
 var faqMainItems = document.querySelectorAll(".faq-main");
 var faqDropdown = document.querySelector(".faq-dropdown");
@@ -190,3 +196,46 @@ faqMainItems.forEach((faqMain) => {
     faqDropdown.classList.toggle("show");
   });
 });
+
+
+/*==========================
+hero collapse menu
+============================*/
+
+document.addEventListener('DOMContentLoaded', function () {
+  var dropdownBtns = document.querySelectorAll('.collapse-btn-dropbtn');
+  var collapseContents = document.querySelectorAll('.collapse-dropdown-content');
+
+  for (let i = 0; i < dropdownBtns.length; i++) {
+    dropdownBtns[i].onclick = function () {
+      alert('hello')
+      collapseContents.forEach((content) => (content.style.display = 'none'));
+
+      collapseContents[i].style.display = 'block';
+   }
+    
+  }
+})
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   var dropdownBtns = document.querySelectorAll(".collapse-btn-dropbtn");
+//   var collapseContents = document.querySelectorAll(
+//     ".collapse-dropdown-content"
+//   );
+
+//   for (let i = 0; i < dropdownBtns.length; i++) {
+//     dropdownBtns[i].onclick = function () {
+//       collapseContents.forEach((content) => (content.style.display = "none"));
+       
+  
+//       collapseContents[i].style.display = "block";
+//     };
+//   }
+
+
+//   window.addEventListener("click", function (event) {
+//     if (!event.target.matches(".collapse-btn-dropbtn")) {
+//       collapseContents.forEach((content) => (content.style.display = "none"));
+//     }
+//   });
+// });

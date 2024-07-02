@@ -1,0 +1,392 @@
+@media (min-width:400px) and (max-width:600px) {
+   main {
+  /* border: 3px solid red; */
+  max-width: 600px;
+  height: 100vh;
+}
+header {
+  background-image: url(../image/header-hero-bg-img.png);
+  min-height: 60vh;
+  max-width: 100%;
+  overflow: hidden!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+.hero-text {
+  max-width: 336px;
+  max-height: 62px;
+  padding: 20px;
+}
+
+.hero-text p {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 33rem;
+  color: var(--text-color-two);
+  text-align: left;
+}
+
+.hero-collapse{
+    position: relative;
+    bottom: -130px;
+    align-items: center;
+    background: #fff;
+    display: flex;
+     margin: 0 auto;
+     box-shadow: 0 0 10px;
+    width:95%;
+    height:auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.line{
+    height: 2.6rem;
+    width: 3px;
+    border-radius: 5px;
+    background: #D9D9D9;
+
+}
+
+.collapse-btn-dropbtn{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 10px;
+  background: transparent;
+  border: none;
+}
+
+.collapse-dropdown{
+    max-width: calc(92%/3);
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hero-text h1 {
+ text-align: start;
+ width: 32rem;
+ font-size: 36px;
+}
+/* Dropdown container */
+.collapse-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* Dropdown content (hidden by default) */
+.collapse-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+/* Links inside the dropdown */
+.collapse-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.collapse-dropdown a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu when the user clicks the button */
+.show {display: block;}
+
+
+.show {display: flex;}
+
+.hall-section {
+  border: 2px solid red;
+}
+
+.hall-one {
+        max-width: 100%;
+        height: auto;
+        top: auto;
+        left: auto;
+        gap: 0px;
+        border-radius: 10px;
+        opacity: 1; 
+        margin-bottom: 1rem; 
+    }
+
+    .hall-one img {
+        max-width: 100%;
+        height: auto; 
+        top: auto;
+        left: auto;
+        gap: 0px;
+        border-radius: 10px 10px 0 0; 
+        opacity: 1; 
+    }
+
+    .first-hall-section-col {
+        display: flex;
+        gap: 20px;
+        margin: 0 0.4rem;
+    }
+
+    .second-hall-section-col {
+    display: flex;
+    gap: 20px;
+     margin: 2rem 0.4rem;
+    }
+
+    .hall-location {
+        display: flex;
+        align-items: center;
+        gap: 5px; /* Adjusted gap for better spacing */
+        margin-top: -1.2rem;
+        margin-left: 0; /* Center align elements */
+    }
+
+    .hall-location p {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18.27px;
+        margin-left: 0; /* Corrected typo from 'margin-lef1' */
+    }
+
+    .star-bundle {
+        margin-top: -0.3rem;
+        display: flex;
+        justify-content: start; /* Center align the star bundle */
+    }
+
+    .star-bundle img {
+        width: auto;
+        height: 19px;
+        border-radius: 47px;
+    }
+
+
+    .additional-services{
+        border: 1px solid red;
+    }
+
+    .additional-services {
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .additional-services h1 {
+        font-size: 1.2rem; /* Adjusted font size */
+    }
+
+    .additional-services-carousel {
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .additional-services-carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: transform 0.5s ease;
+    }
+
+    .additional-services-addition-box {
+        min-width: 100%; /* Full width for each item */
+        padding: 10px;
+        box-sizing: border-box; 
+    }
+
+    .addition-box {
+        background-color: #ffffff;
+        padding: 15px; /* Adjusted padding */
+        border: 1px solid #ccc;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow */
+        min-height: 40vh;
+        border-radius: 10px;
+        margin-bottom: 10px; /* Added spacing between items */
+        opacity: 1;
+    }
+
+    .addition-box-title h2 {
+        font-family: "Poppins";
+        font-size: 20px; /* Adjusted font size */
+        font-weight: 500;
+        line-height: 30px; /* Adjusted line height */
+        text-align: center;
+        padding: 0.5rem;
+        color: var(--text-color-onoe);
+    }
+
+    .addition-box p {
+              font-family: "Poppins";
+        padding: 0 15px;
+        font-size: 1rem;
+        font-weight: 00;
+        line-height: 30px;
+        /* letter-spacing: 0.04em; */
+        text-align: center;
+        color: var(--text-color-onoe);
+    }
+
+    .addition-box a {
+        color: var(--primary-color);
+        margin: 1rem 0 !important; /* Adjusted margin */
+    }
+
+    .additional-services-carousel-button {
+        position: absolute;
+        font-size: 1rem;
+        top: 17%; 
+        transform: translateY(-50%);
+        color: rgba(105, 105, 105, 0.589);
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .additional-services-carousel-button.prev {
+        left: 5px; /* Adjusted position */
+        background-color: white;
+    }
+
+    .additional-services-carousel-button.next {
+        right: 5px; /* Adjusted position */
+        background-color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .testimonials {
+  margin: 3rem auto;
+  max-width: 90%;
+  overflow: hidden;
+}
+
+.test {
+  /* border: 2px solid red; */
+  max-width: 600px;
+  margin: auto;
+}
+
+.testimonal-header-text h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.testimonal-header-img {
+  min-width: 100%;
+  box-sizing: border-box;
+  display: none; /* Hide all slides by default */
+}
+
+.testimonal-header-img p {
+  text-align: center;
+}
+
+.testimonal-header-img img {
+ display: flex;
+ margin: 0 auto;
+  max-width: 60%;
+}
+
+    .testimonal-star-Rating img {
+        display: flex;  
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+.testimonals-text p {
+  font-family: Poppins;
+  font-size: 12px;
+  padding: 0 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+
+}
+.testimonals-text {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  padding: 6px;
+  height: 180px;
+}
+
+.other-img {
+  background-color: blueviolet;
+  border-radius: 50%;
+  width: 30%;
+  display: flex;
+  margin: 0 auto;
+  /* margin-left: 5rem !important; */
+}
+
+
+.dots-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slide-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.join-us {
+    margin: 0 auto;
+    width: 80%;
